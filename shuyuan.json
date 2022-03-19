@@ -11,8 +11,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::https://www.bixiabook.com/xuanhuanxiaoshuo/\n修真小说::https://www.bixiabook.com/xiuzhenxiaoshuo/\n都市小说::https://www.bixiabook.com/dushixiaoshuo/\n穿越小说::https://www.bixiabook.com/chuanyuexiaoshuo/\n网游小说::https://www.bixiabook.com/wangyouxiaoshuo/\n科幻小说::https://www.bixiabook.com/kehuanxiaoshuo/\n其他小说::https://www.bixiabook.com/qitaxiaoshuo/\n完本小说::https://www.bixiabook.com/wanben/1_1\n排行榜单::https://www.bixiabook.com/paihangbang/",
-    "header": "",
-    "lastUpdateTime": 1647661538682,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693220660,
     "loginCheckJs": "",
     "loginUi": "",
     "loginUrl": "",
@@ -116,8 +116,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最近更新::http://www.txt101.com/top/lastupdate_{{page}}.html\n最新入库::http://www.txt101.com/top/postdate_{{page}}.html\n总排行榜::http://www.txt101.com/top.php\n古代言情::http://www.txt101.com/class/1_{{page}}.html\n现代言情::http://www.txt101.com/class/2_{{page}}.html\n纯爱耽美::http://www.txt101.com/class/3_{{page}}.html\n仙侠玄幻::http://www.txt101.com/class/4_{{page}}.html\n科幻未来::http://www.txt101.com/class/5_{{page}}.html\n悬疑鬼怪::http://www.txt101.com/class/6_{{page}}.html\n游戏人生::http://www.txt101.com/class/7_{{page}}.html\n百合GL::http://www.txt101.com/class/8_{{page}}.html\n其他类型::http://www.txt101.com/class/9_{{page}}.html",
-    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1647661620936,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693245543,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -163,7 +163,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::https://www.81zw.com/xuanhuan/\n修真小说::https://www.81zw.com/xianxia/\n都市小说::https://www.81zw.com/dushi/\n历史小说::https://www.81zw.com/lishi/\n网游小说::https://www.81zw.com/wangyou/\n科幻小说::https://www.81zw.com/kehuan/\n言情小说::https://www.81zw.com/yanqing/\n其他小说::https://www.81zw.com/qita/\n全本小说::https://www.81zw.com/quanben/",
-    "lastUpdateTime": 1647662360332,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693253176,
     "respondTime": 930,
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text##作    者：",
@@ -209,7 +210,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最新更新::https://wap.maxreader.net/sort.html\n最近入库::https://wap.maxreader.net/top/postdate<,/{{page}}>.html\n完本小说::https://wap.maxreader.net/over<,/{{page}}>.html\n总点击榜::https://wap.maxreader.net/top/allvisit<,/{{page}}>.html\n总推荐榜::https://wap.maxreader.net/top/vote<,/{{page}}>.html\n总收藏榜::https://wap.maxreader.net/top/mark<,/{{page}}>.html\n总下载榜::https://wap.maxreader.net/top/down<,/{{page}}>.html\n总评论榜::https://wap.maxreader.net/top/comment<,/{{page}}>.html\n总评分榜::https://wap.maxreader.net/top/star_score<,/{{page}}>.html\n百度热搜::https://wap.maxreader.net/top/baidu<,/{{page}}>.html\n追书热度::https://wap.maxreader.net/top/zhuishu<,/{{page}}>.html\n书旗热搜::https://wap.maxreader.net/top/shuqi<,/{{page}}>.html\n掌阅热销::https://wap.maxreader.net/top/zhangyue<,/{{page}}>.html\n起点月票::https://wap.maxreader.net/top/qidian<,/{{page}}>.html\n17K鲜花::https://wap.maxreader.net/top/17k<,/{{page}}>.html\n玄幻小说::https://wap.maxreader.net/sort/xuanhuan<,/{{page}}>.html\n奇幻小说::https://wap.maxreader.net/sort/qihuan<,/{{page}}>.html\n武侠小说::https://wap.maxreader.net/sort/wuxia<,/{{page}}>.html\n仙侠小说::https://wap.maxreader.net/sort/xianxia<,/{{page}}>.html\n都市小说::https://wap.maxreader.net/sort/dushi<,/{{page}}>.html\n历史小说::https://wap.maxreader.net/sort/lishi<,/{{page}}>.html\n军事小说::https://wap.maxreader.net/sort/junshi<,/{{page}}>.html\n游戏小说::https://wap.maxreader.net/sort/youxi<,/{{page}}>.html\n竞技小说::https://wap.maxreader.net/sort/jingji<,/{{page}}>.html\n科幻小说::https://wap.maxreader.net/sort/kehuan<,/{{page}}>.html\n灵异小说::https://wap.maxreader.net/sort/lingyi<,/{{page}}>.html\n其他小说::https://wap.maxreader.net/sort/qita<,/{{page}}>.html\n总裁小说::https://wap.maxreader.net/sort/zongcai<,/{{page}}>.html\n穿越小说::https://wap.maxreader.net/sort/chongsheng<,/{{page}}>.html\n古典小说::https://wap.maxreader.net/sort/gudian<,/{{page}}>.html\n宫斗小说::https://wap.maxreader.net/sort/gongdou<,/{{page}}>.html\n现言小说::https://wap.maxreader.net/sort/dushi<,/{{page}}>.html\n仙侠小说::https://wap.maxreader.net/sort/xianxiaxuanhuan<,/{{page}}>.html\n青春小说::https://wap.maxreader.net/sort/qingchun<,/{{page}}>.html\n游戏小说::https://wap.maxreader.net/sort/game<,/{{page}}>.html\n灵异小说::https://wap.maxreader.net/sort/kehuanlingyi<,/{{page}}>.html\n耽美小说::https://wap.maxreader.net/sort/danmei<,/{{page}}>.html\n女尊小说::https://wap.maxreader.net/sort/nvzun<,/{{page}}>.html\n其他小说::https://wap.maxreader.net/sort/other<,/{{page}}>.html",
-    "lastUpdateTime": 1647662377208,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693257677,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "class.mt5 gray@text",
@@ -254,7 +256,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::https://m.123wenxue.com/xuanhuan/\n武侠修真::https://m.123wenxue.com/xiuzhen/\n都市言情::https://m.123wenxue.com/dushi/\n历史军事::https://m.123wenxue.com/lishi/\n网游动漫::https://m.123wenxue.com/wangyou/\n科幻小说::https://m.123wenxue.com/kehuan/\n恐怖灵异::https://m.123wenxue.com/lingyi/\n其它小说::https://m.123wenxue.com/qita/\n全本小说::https://m.123wenxue.com/quanben/",
-    "lastUpdateTime": 1647662443750,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693271877,
     "loginUrl": "",
     "respondTime": 180000,
     "ruleBookInfo": {
@@ -305,7 +308,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::https://www.lewen123.net/fenlei/1_1.html\n修真小说::https://www.lewen123.net/fenlei/2_1.html\n都市小说::https://www.lewen123.net/fenlei/3_1.html\n穿越小说::https://www.lewen123.net/fenlei/4_1.html\n网游小说::https://www.lewen123.net/fenlei/5_1.html\n科幻小说::https://www.lewen123.net/fenlei/6_1.html\n其他小说::https://www.lewen123.net/fenlei/7_1.html\n全本小说::https://www.lewen123.net/full.html\n排行榜::https://www.lewen123.net/t/allvisit.html",
-    "lastUpdateTime": 1647662598748,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693277027,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text##作    者：",
@@ -348,7 +352,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::http://www.xbiquge.la/fenlei/1_{{page}}.html\n修真小说::http://www.xbiquge.la/fenlei/2_{{page}}.html\n都市小说::http://www.xbiquge.la/fenlei/3_{{page}}.html\n穿越小说::http://www.xbiquge.la/fenlei/4_{{page}}.html\n网游小说::http://www.xbiquge.la/fenlei/5_{{page}}.html\n科幻小说::http://www.xbiquge.la/fenlei/6_{{page}}.html",
-    "lastUpdateTime": 1647662632515,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693282045,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text##作    者：",
@@ -386,6 +391,49 @@
   {
     "bookSourceComment": "",
     "bookSourceGroup": "",
+    "bookSourceName": "笔趣趣",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.biququ.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693286826,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "id.fmimg@img@src",
+      "init": "",
+      "intro": "id.intro@text",
+      "lastChapter": "class.box_con@id.maininfo@id.info@tag.p.3@tag.a@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@p@textNodes",
+      "replaceRegex": "##过年.*.书友.*.app.*.追更.*|bqgxsydw.com|loubiqu.net"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.search-list@tag.li.!0",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "kind": "class.s1@text",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.biququ.com/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
     "bookSourceName": "E小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.exiaoshuo.com",
@@ -393,7 +441,8 @@
     "customOrder": 0,
     "enabled": true,
     "enabledExplore": false,
-    "lastUpdateTime": 1647662861015,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693293182,
     "loginUrl": "",
     "respondTime": 180000,
     "ruleBookInfo": {
@@ -433,48 +482,6 @@
   {
     "bookSourceComment": "",
     "bookSourceGroup": "",
-    "bookSourceName": "笔趣趣",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.biququ.com/",
-    "customOrder": 0,
-    "enabled": true,
-    "enabledExplore": false,
-    "lastUpdateTime": 1647662964448,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "author": "id.info@tag.p.0@text",
-      "coverUrl": "id.fmimg@img@src",
-      "init": "",
-      "intro": "id.intro@text",
-      "lastChapter": "class.box_con@id.maininfo@id.info@tag.p.3@tag.a@text",
-      "name": "id.info@tag.h1.0@text"
-    },
-    "ruleContent": {
-      "content": "id.content@p@textNodes",
-      "replaceRegex": "##过年.*.书友.*.app.*.追更.*|bqgxsydw.com|loubiqu.net"
-    },
-    "ruleExplore": {
-      "bookList": ""
-    },
-    "ruleSearch": {
-      "author": "class.s4@text",
-      "bookList": "class.search-list@tag.li.!0",
-      "bookUrl": "class.s2@tag.a.0@href",
-      "kind": "class.s1@text",
-      "lastChapter": "class.s3@text",
-      "name": "class.s2@tag.a.0@text"
-    },
-    "ruleToc": {
-      "chapterList": "id.list@tag.dd",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href"
-    },
-    "searchUrl": "http://www.biququ.com/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "",
-    "bookSourceGroup": "",
     "bookSourceName": "31小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.31xiaoshuo.com",
@@ -483,8 +490,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/list/1/\n修真::/list/2/\n都市::/list/3/\n穿越::/list/4/\n网游::/list/5/\n科幻::/list/6/\n次元::/list/7}/\n言情::/list/8/\n青春::/list/9/\n现代::/list/10/\n古代::/list/11/\n幻想::/list/12/\n全本::/qb/",
-    "header": "",
-    "lastUpdateTime": 1647663048264,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693303650,
     "loginUrl": "",
     "respondTime": 180000,
     "ruleBookInfo": {
@@ -535,8 +542,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::http://www.wucuoxs.com/fenlei2/\n奇幻::http://www.wucuoxs.com/fenlei3/\n武侠::http://www.wucuoxs.com/fenlei4/\n仙侠::http://www.wucuoxs.com/fenlei5/\n都市::http://www.wucuoxs.com/fenlei6/\n历史::http://www.wucuoxs.com/fenlei7/\n军事::http://www.wucuoxs.com/fenlei8/\n游戏::http://www.wucuoxs.com/fenlei9/\n科幻::http://www.wucuoxs.com/fenlei10/\n女生::http://www.wucuoxs.com/fenlei1/\n其他::http://www.wucuoxs.com/fenlei11/",
-    "header": "",
-    "lastUpdateTime": 1647663441681,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693315210,
     "loginUrl": "",
     "respondTime": 180000,
     "ruleBookInfo": {
@@ -584,7 +591,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全本小说::https://2cxo.com/over/\n总点击小说榜::https://2cxo.com/top/allvisit.html\n月点击小说榜::https://2cxo.com/top/monthvisit.html\n周点击小说榜::https://2cxo.com/top/weekvisit.html\n日点击小说榜::https://2cxo.com/top/dayvisit.html\n总推荐小说榜::https://2cxo.com/top/votenum.html\n总收藏小说榜::https://2cxo.com/top/marknum.html\n总下载小说榜::https://2cxo.com/top/downnum.html\n最近更新榜::https://2cxo.com/top/lastupdate.html\n入库新书榜::https://2cxo.com/top/postdate.html\n全部小说::https://2cxo.com/sort/all_0_0_lastupdate_1.html\n奇幻频道::https://2cxo.com/sort/qhpd_0_0_lastupdate_1.html\n玄幻魔法::https://2cxo.com/sort/xhmf_0_0_lastupdate_1.html\n武侠修真::https://2cxo.com/sort/wxxz_0_0_lastupdate_1.html\n都市言情::https://2cxo.com/sort/dsyq_0_0_lastupdate_1.html\n历史穿越::https://2cxo.com/sort/lscy_0_0_lastupdate_1.html\n军事科幻::https://2cxo.com/sort/jskh_0_0_lastupdate_1.html\n游戏竞技::https://2cxo.com/sort/yxjj_0_0_lastupdate_1.html\n恐怖悬疑::https://2cxo.com/sort/kbxy_0_0_lastupdate_1.html\n女生专区::https://2cxo.com/sort/nvzq_0_0_lastupdate_1.html\n综合类型::https://2cxo.com/sort/zhlx_0_0_lastupdate_1.html",
-    "lastUpdateTime": 1647675274598,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693320626,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "class.detail@tag.p.0@a.0@text",
@@ -630,7 +638,8 @@
     "customOrder": 0,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1647675311598,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693328610,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "class.author@a@text",
@@ -674,8 +683,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部 • 全::/shuku/0_0_0_{{page}}.html\n全部 • 连::/shuku/0_0_1_{{page}}.html\n全部 • 完::/shuku/0_0_2_{{page}}.html\n\n总点击榜 • 全::/shuku/allvisit_0_0_{{page}}.html\n总点击榜 • 连::/shuku/allvisit_0_1_{{page}}.html\n总点击榜 • 完::/shuku/allvisit_0_2_{{page}}.html\n\n月点击榜 • 全::/shuku/monthvisit_0_0_{{page}}.html\n月点击榜 • 连::/shuku/monthvisit_0_1_{{page}}.html\n月点击榜 • 完::/shuku/monthvisit_0_2_{{page}}.html\n\n周点击榜 • 全::/shuku/weekvisit_0_0_{{page}}.html\n周点击榜 • 连::/shuku/weekvisit_0_1_{{page}}.html\n周点击榜 • 完::/shuku/weekvisit_0_2_{{page}}.html\n\n日点击榜 • 全::/shuku/dayvisit_0_0_{{page}}.html\n日点击榜 • 连::/shuku/dayvisit_0_1_{{page}}.html\n日点击榜 • 完::/shuku/dayvisit_0_2_{{page}}.html\n\n总推荐榜 • 全::/shuku/allvote_0_0_{{page}}.html\n总推荐榜 • 连::/shuku/allvote_0_1_{{page}}.html\n总推荐榜 • 完::/shuku/allvote_0_2_{{page}}.html\n\n月推荐榜 • 全::/shuku/monthvote_0_0_{{page}}.html\n月推荐榜 • 连::/shuku/monthvote_0_1_{{page}}.html\n月推荐榜 • 完::/shuku/monthvote_0_2_{{page}}.html\n\n周推荐榜 • 全::/shuku/weekvote_0_0_{{page}}.html\n周推荐榜 • 连::/shuku/weekvote_0_1_{{page}}.html\n周推荐榜 • 完::/shuku/weekvote_0_2_{{page}}.html\n\n日推荐榜 • 全::/shuku/dayvote_0_0_{{page}}.html\n日推荐榜 • 连::/shuku/dayvote_0_1_{{page}}.html\n日推荐榜 • 完::/shuku/dayvote_0_2_{{page}}.html\n\n总收藏榜 • 全::/shuku/goodnum_0_0_{{page}}.html\n总收藏榜 • 连::/shuku/goodnum_0_1_{{page}}.html\n总收藏榜 • 完::/shuku/goodnum_0_2_{{page}}.html\n\n总字数榜 • 全::/shuku/size_0_0_{{page}}.html\n总字数榜 • 连::/shuku/size_0_1_{{page}}.html\n总字数榜 • 完::/shuku/size_0_2_{{page}}.html\n\n最新入库 • 全::/shuku/postdate_0_0_{{page}}.html\n最新入库 • 连::/shuku/postdate_0_1_{{page}}.html\n最新入库 • 完::/shuku/postdate_0_2_{{page}}.html\n\n玄幻奇幻 • 全::/shuku/0_1_0_{{page}}.html\n玄幻奇幻 • 连::/shuku/0_1_1_{{page}}.html\n玄幻奇幻 • 完::/shuku/0_1_2_{{page}}.html\n\n武侠修真 • 全::/shuku/0_2_0_{{page}}.html\n武侠修真 • 连::/shuku/0_2_1_{{page}}.html\n武侠修真 • 完::/shuku/0_2_2_{{page}}.html\n\n都市生活 • 全::/shuku/0_3_0_{{page}}.html\n都市生活 • 连::/shuku/0_3_1_{{page}}.html\n都市生活 • 完::/shuku/0_3_2_{{page}}.html\n\n历史军事 • 全::/shuku/0_4_0_{{page}}.html\n历史军事 • 连::/shuku/0_4_1_{{page}}.html\n历史军事 • 完::/shuku/0_4_2_{{page}}.html\n\n游戏竞技 • 全::/shuku/0_5_0_{{page}}.html\n游戏竞技 • 连::/shuku/0_5_1_{{page}}.html\n游戏竞技 • 完::/shuku/0_5_2_{{page}}.html\n\n科幻未来 • 全::/shuku/0_6_0_{{page}}.html\n科幻未来 • 连::/shuku/0_6_1_{{page}}.html\n科幻未来 • 完::/shuku/0_6_2_{{page}}.html\n\n悬疑灵异 • 全::/shuku/0_7_0_{{page}}.html\n悬疑灵异 • 连::/shuku/0_7_1_{{page}}.html\n悬疑灵异 • 完::/shuku/0_7_2_{{page}}.html\n\n二  次  元 • 全::/shuku/0_8_0_{{page}}.html\n二  次  元 • 连::/shuku/0_8_1_{{page}}.html\n二  次  元 • 完::/shuku/0_8_2_{{page}}.html\n\n经典短篇 • 全::/shuku/0_9_0_{{page}}.html\n经典短篇 • 连::/shuku/0_9_1_{{page}}.html\n经典短篇 • 完::/shuku/0_9_2_{{page}}.html\n\n古代言情 • 全::/shuku/0_10_0_{{page}}.html\n古代言情 • 连::/shuku/0_10_1_{{page}}.html\n古代言情 • 完::/shuku/0_10_2_{{page}}.html\n\n现代言情 • 全::/shuku/0_11_0_{{page}}.html\n现代言情 • 连::/shuku/0_11_1_{{page}}.html\n现代言情 • 完::/shuku/0_11_2_{{page}}.html\n\n幻想奇缘 • 全::/shuku/0_12_0_{{page}}.html\n幻想奇缘 • 连::/shuku/0_12_1_{{page}}.html\n幻想奇缘 • 完::/shuku/0_12_2_{{page}}.html\n\n浪漫青春 • 全::/shuku/0_13_0_{{page}}.html\n浪漫青春 • 连::/shuku/0_13_1_{{page}}.html\n浪漫青春 • 完::/shuku/0_13_2_{{page}}.html\n\n网络情缘 • 全::/shuku/0_14_0_{{page}}.html\n网络情缘 • 连::/shuku/0_14_1_{{page}}.html\n网络情缘 • 完::/shuku/0_14_2_{{page}}.html\n\n科幻空间 • 全::/shuku/0_15_0_{{page}}.html\n科幻空间 • 连::/shuku/0_15_1_{{page}}.html\n科幻空间 • 完::/shuku/0_15_2_{{page}}.html\n\n恐怖灵异 • 全::/shuku/0_16_0_{{page}}.html\n恐怖灵异 • 连::/shuku/0_16_1_{{page}}.html\n恐怖灵异 • 完::/shuku/0_16_2_{{page}}.html\n\nN   次  元 • 全::/shuku/0_17_0_{{page}}.html\nN   次  元 • 连::/shuku/0_17_1_{{page}}.html\nN   次  元 • 完::/shuku/0_17_2_{{page}}.html\n\n言情美文 • 全::/shuku/0_18_0_{{page}}.html\n言情美文 • 连::/shuku/0_18_1_{{page}}.html\n言情美文 • 完::/shuku/0_18_2_{{page}}.html",
-    "header": "",
-    "lastUpdateTime": 1647663532232,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693344443,
     "loginUrl": "",
     "respondTime": 180000,
     "ruleBookInfo": {
@@ -726,7 +735,8 @@
     "customOrder": 9,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1647663981265,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693349326,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "class.container@class.row@class.layout@class.info@class.fix@tag.p.0@text##作  者：",
@@ -772,7 +782,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最新更新::/top/lastupdate_{{page}}/\n最新入库::/top/postdate_{{page}}/\n总排行榜::/top/allvisit_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n总字数榜::/top/size_{{page}}/\n月排行榜::/top/monthvisit_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n周排行榜::/top/weekvisit_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n玄幻魔法::/sort1/{{page}}.html\n武侠修真::/sort2/{{page}}.html\n都市言情::/sort3/{{page}}.html\n历史军事::/sort4/{{page}}.html\n网游动漫::/sort6/{{page}}.html\n科幻小说::/sort7/{{page}}.html\n恐怖灵异::/sort8/{{page}}.html\n散文诗词::/sort9/{{page}}.html\n综合其他::/sort10/{{page}}.html",
-    "lastUpdateTime": 1647663996766,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693354078,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": ".info_des@tag.dl.0@text##.*：",
@@ -822,7 +833,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "首页::/\n排行榜::/paihangbang.html\n小说书库::/shuku_17801_{{page}}.html\n玄幻·奇幻::/xuanhuan/shuku_1949_{{page}}.html\n仙侠·武侠::/xianxia/shuku_6666_{{page}}.html\n都市·言情::/dushi/shuku_6666_{{page}}.html\n穿越·历史::/chuanyue/shuku_6666_{{page}}.html\n科幻·灵异::/kehuan/shuku_6666_{{page}}.html\n同人·网游::/tongren/shuku_6666_{{page}}.html",
-    "lastUpdateTime": 1647664239665,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693358427,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "@css:[property=og:novel:author]@content",
@@ -875,7 +887,8 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部::https://www.dstiejuan.com/library/0_0_0_0_0_0_{{page}}.html\n强推榜::https://www.dstiejuan.com/top/toptime/{{page}}.html\n新书榜::https://www.dstiejuan.com/top/goodnew/{{page}}.html\n二次元::https://www.dstiejuan.com/library/11_0_0_0_0_0_{{page}}.html\n玄幻奇幻::https://www.dstiejuan.com/library/1_0_0_0_0_0_{{page}}.html\n武侠仙侠::https://www.dstiejuan.com/library/2_0_0_0_0_0_{{page}}.html\n都市生活::https://www.dstiejuan.com/library/3_0_0_0_0_0_{{page}}.html\n历史军事::https://www.dstiejuan.com/library/4_0_0_0_0_0_{{page}}.html\n游戏竞技::https://www.dstiejuan.com/library/5_0_0_0_0_0_{{page}}.html\n科幻灵异::https://www.dstiejuan.com/library/6_0_0_0_0_0_{{page}}.html\n古代言情::https://www.dstiejuan.com/library/7_0_0_0_0_0_{{page}}.html\n现代言情::https://www.dstiejuan.com/library/8_0_0_0_0_0_{{page}}.html\n青春校园::https://www.dstiejuan.com/library/9_0_0_0_0_0_{{page}}.html\n幻想奇缘::https://www.dstiejuan.com/library/10_0_0_0_0_0_{{page}}.html\n其他类型::https://www.dstiejuan.com/library/12_0_0_0_0_0_{{page}}.html\n最近更新::https://www.dstiejuan.com/top/lastupdate/{{page}}.html\n最新入库::https://www.dstiejuan.com/top/postdate/{{page}}.html\n总推荐榜::https://www.dstiejuan.com/top/allvote/{{page}}.html\n总点击榜::https://www.dstiejuan.com/top/allvisit/{{page}}.html\n月推荐榜::https://www.dstiejuan.com/top/monthvote/{{page}}.html\n月点击榜::https://www.dstiejuan.com/top/monthvisit/{{page}}.html\n周推荐榜::https://www.dstiejuan.com/top/weekvote/{{page}}.html\n周点击榜::https://www.dstiejuan.com/top/weekvisit/{{page}}.html\n日推荐榜::https://www.dstiejuan.com/top/dayvote/{{page}}.html\n日点击榜::https://www.dstiejuan.com/top/dayvisit/{{page}}.html\n总收藏榜::https://www.dstiejuan.com/top/goodnum/{{page}}.html\n字数排行::https://www.dstiejuan.com/top/size/{{page}}.html\n完本小说::https://www.dstiejuan.com/full/{{page}}.html\n全部小说::https://www.dstiejuan.com/list/{{page}}.html",
-    "lastUpdateTime": 1647664884565,
+    "header": "Mozilla/5.0 (Linux; Android 11; Redmi K30 Ultra wv) AppleWebKit/605.1.15Z (KHTML, like Gecko) Version/9.2 Chrome/95.0.1020.40 Mobile Safari/604.1 SearchCraft/2.8.2 baiduboxapp/ ",
+    "lastUpdateTime": 1647693369293,
     "respondTime": 180000,
     "ruleBookInfo": {
       "author": "class.detail@tag.p.0@tag.a.0@text",
