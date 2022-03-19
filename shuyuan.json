@@ -526,46 +526,6 @@
   },
   {
     "bookSourceComment": "",
-    "bookSourceName": "东方阅读",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.lnwow.co/",
-    "customOrder": 0,
-    "enabled": true,
-    "enabledExplore": true,
-    "lastUpdateTime": 1647663438966,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "author": "class.author@a@text",
-      "coverUrl": "class.img@img@src",
-      "init": "",
-      "intro": "class.intro@text##简介.",
-      "kind": "class.sort@a@text",
-      "lastChapter": "",
-      "name": "class.booktitle@text##\\[.*.\\]",
-      "tocUrl": "class.bookbtn@tag.a.1@href"
-    },
-    "ruleContent": {
-      "content": "id.content@textNodes",
-      "replaceRegex": "##999小说首发|"
-    },
-    "ruleExplore": {
-      "bookList": ""
-    },
-    "ruleSearch": {
-      "bookList": "class.book_list@li",
-      "bookUrl": "tag.li@a@href",
-      "name": "tag.a@text##\\[.*.\\]"
-    },
-    "ruleToc": {
-      "chapterList": "class.main_content@class.index.0@tag.ul@tag.li",
-      "chapterName": "a@text",
-      "chapterUrl": "a@href"
-    },
-    "searchUrl": "https://www.lnwow.co/search.aspx,{\n'method': 'POST',\n'body': \"q={{key}}\"\n}",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "",
     "bookSourceGroup": "",
     "bookSourceName": "大文学",
     "bookSourceType": 0,
@@ -613,6 +573,94 @@
       "chapterUrl": "tag.a@href"
     },
     "searchUrl": "http://www.wucuoxs.com/modules/article/search.php?keyword={{key}},{\n  \"charset\":\"utf-8\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceName": "黑洞小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://2cxo.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全本小说::https://2cxo.com/over/\n总点击小说榜::https://2cxo.com/top/allvisit.html\n月点击小说榜::https://2cxo.com/top/monthvisit.html\n周点击小说榜::https://2cxo.com/top/weekvisit.html\n日点击小说榜::https://2cxo.com/top/dayvisit.html\n总推荐小说榜::https://2cxo.com/top/votenum.html\n总收藏小说榜::https://2cxo.com/top/marknum.html\n总下载小说榜::https://2cxo.com/top/downnum.html\n最近更新榜::https://2cxo.com/top/lastupdate.html\n入库新书榜::https://2cxo.com/top/postdate.html\n全部小说::https://2cxo.com/sort/all_0_0_lastupdate_1.html\n奇幻频道::https://2cxo.com/sort/qhpd_0_0_lastupdate_1.html\n玄幻魔法::https://2cxo.com/sort/xhmf_0_0_lastupdate_1.html\n武侠修真::https://2cxo.com/sort/wxxz_0_0_lastupdate_1.html\n都市言情::https://2cxo.com/sort/dsyq_0_0_lastupdate_1.html\n历史穿越::https://2cxo.com/sort/lscy_0_0_lastupdate_1.html\n军事科幻::https://2cxo.com/sort/jskh_0_0_lastupdate_1.html\n游戏竞技::https://2cxo.com/sort/yxjj_0_0_lastupdate_1.html\n恐怖悬疑::https://2cxo.com/sort/kbxy_0_0_lastupdate_1.html\n女生专区::https://2cxo.com/sort/nvzq_0_0_lastupdate_1.html\n综合类型::https://2cxo.com/sort/zhlx_0_0_lastupdate_1.html",
+    "lastUpdateTime": 1647675274598,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.detail@tag.p.0@a.0@text",
+      "canReName": "true",
+      "coverUrl": "class.detail@class.bookimg@img@src",
+      "init": "",
+      "intro": "class.mod@class.intro@text",
+      "kind": "class.detail@tag.p.0@a.1@text",
+      "lastChapter": "class.read@class.list@tag.dd.0@tag.a@textNodes##*.更新.\\d",
+      "name": "class.detail@h1@text",
+      "tocUrl": "class.mod@class.action@tag.a.3@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@tag.a.0@text",
+      "bookList": "class.library@li",
+      "bookUrl": "class.bookname@href",
+      "coverUrl": "class.bookimg@img@src",
+      "intro": "class.intro@text",
+      "kind": "tag.p.0@tag.a.1@text",
+      "lastChapter": "class.chapter@text",
+      "name": "class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.dl.1@dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "updateTime": "tag.span@text##更新："
+    },
+    "searchUrl": "https://2cxo.com/so/search.html?searchkey={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceName": "东方阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lnwow.co/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1647675311598,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.author@a@text",
+      "canReName": "true",
+      "coverUrl": "class.img@img@src",
+      "init": "",
+      "intro": "class.intro@text##简介.",
+      "kind": "class.sort@a@text",
+      "lastChapter": "",
+      "name": "class.booktitle@text##\\[.*.\\]",
+      "tocUrl": "class.bookbtn@tag.a.1@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "replaceRegex": "##999小说首发|"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "bookList": "class.book_list@li",
+      "bookUrl": "tag.li@a@href",
+      "name": "tag.a@text##\\[.*.\\]"
+    },
+    "ruleToc": {
+      "chapterList": "class.main_content@class.index.0@tag.ul@tag.li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://www.lnwow.co/search.aspx,{\n'method': 'POST',\n'body': \"q={{key}}\"\n}",
     "weight": 0
   },
   {
