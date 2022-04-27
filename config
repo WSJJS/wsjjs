@@ -1,192 +1,23 @@
-port: 7890
-socks-port: 7891
-redir-port: 7892
-mixed-port: 7893
-allow-lan: false
-mode: rule
+mixed-port: 7890
+allow-lan: true
+mode: Rule
 log-level: info
-ipv6: false
-hosts:
-  services.googleapis.cn: 142.250.196.131
-  www.google.cn: 142.250.196.131
-external-controller: 0.0.0.0:9090
-clash-for-android:
-  append-system-dns: false
-profile:
-  tracing: true
-dns:
-  enable: true
-  listen: 127.0.0.1:8853
-  default-nameserver:
-    - 223.5.5.5
-    - 8.8.4.4
-  ipv6: false
-  enhanced-mode: fake-ip
-  fake-ip-filter:
-    - "*.lan"
-    - "*.localdomain"
-    - "*.example"
-    - "*.invalid"
-    - "*.localhost"
-    - "*.test"
-    - "*.local"
-    - "*.home.arpa"
-    - time.*.com
-    - time.*.gov
-    - time.*.edu.cn
-    - time.*.apple.com
-    - time1.*.com
-    - time2.*.com
-    - time3.*.com
-    - time4.*.com
-    - time5.*.com
-    - time6.*.com
-    - time7.*.com
-    - ntp.*.com
-    - ntp1.*.com
-    - ntp2.*.com
-    - ntp3.*.com
-    - ntp4.*.com
-    - ntp5.*.com
-    - ntp6.*.com
-    - ntp7.*.com
-    - "*.time.edu.cn"
-    - "*.ntp.org.cn"
-    - +.pool.ntp.org
-    - time1.cloud.tencent.com
-    - music.163.com
-    - "*.music.163.com"
-    - "*.126.net"
-    - musicapi.taihe.com
-    - music.taihe.com
-    - songsearch.kugou.com
-    - trackercdn.kugou.com
-    - "*.kuwo.cn"
-    - api-jooxtt.sanook.com
-    - api.joox.com
-    - joox.com
-    - y.qq.com
-    - "*.y.qq.com"
-    - streamoc.music.tc.qq.com
-    - mobileoc.music.tc.qq.com
-    - isure.stream.qqmusic.qq.com
-    - dl.stream.qqmusic.qq.com
-    - aqqmusic.tc.qq.com
-    - amobile.music.tc.qq.com
-    - "*.xiami.com"
-    - "*.music.migu.cn"
-    - music.migu.cn
-    - +.msftconnecttest.com
-    - +.msftncsi.com
-    - msftconnecttest.com
-    - msftncsi.com
-    - localhost.ptlogin2.qq.com
-    - localhost.sec.qq.com
-    - +.srv.nintendo.net
-    - +.stun.playstation.net
-    - xbox.*.microsoft.com
-    - xnotify.xboxlive.com
-    - +.ipv6.microsoft.com
-    - +.battlenet.com.cn
-    - +.wotgame.cn
-    - +.wggames.cn
-    - +.wowsgame.cn
-    - +.wargaming.net
-    - proxy.golang.org
-    - stun.*.*
-    - stun.*.*.*
-    - +.stun.*.*
-    - +.stun.*.*.*
-    - +.stun.*.*.*.*
-    - heartbeat.belkin.com
-    - "*.linksys.com"
-    - "*.linksyssmartwifi.com"
-    - "*.router.asus.com"
-    - mesu.apple.com
-    - swscan.apple.com
-    - swquery.apple.com
-    - swdownload.apple.com
-    - swcdn.apple.com
-    - swdist.apple.com
-    - lens.l.google.com
-    - stun.l.google.com
-    - "*.square-enix.com"
-    - "*.finalfantasyxiv.com"
-    - "*.ffxiv.com"
-    - "*.ff14.sdo.com"
-    - ff.dorado.sdo.com
-    - "*.mcdn.bilivideo.cn"
-    - +.media.dssott.com
-    - +.pvp.net
-  nameserver:
-    - 114.114.114.114
-    - tls://223.5.5.5:853
-    - tls://1.12.12.12
-  fallback:
-    - https://1.0.0.1/dns-query
-    - https://public.dns.iij.jp/dns-query
-    - tls://8.8.4.4:853
-  fallback-filter:
-    geoip: true
-    ipcidr:
-      - 240.0.0.0/4
-      - 0.0.0.0/32
-      - 127.0.0.1/32
-    domain:
-      - +.facebook.com
-      - +.twitter.com
-      - +.google.com
-      - +.googleapis.com
-      - +.google.cn
-      - +.googleapis.cn
-      - +.xn--ngstr-lra8j.com
-      - +.googlevideo.com
-      - +.gvt1.com
-      - +.gmail.com
-      - +.youtube.com
-      - +.youtu.be
-      - +.gvt0.com
-      - +.gvt2.com
-      - +.gvt3.com
-      - +.gstatic.com
-      - +.265.com
-      - +.2mdn.net
-      - +.app-measurement.com
-      - +.c.admob.com
-      - +.clickserve.dartsearch.net
-      - +.crl.pki.goog
-      - +.doubleclick.net
-      - +.firebase-settings.crashlytics.com
-      - +.google-analytics.com
-      - +.googleadservices.com
-      - +.googleanalytics.com
-      - +.googleoptimize.com
-      - +.googlesyndication.com
-      - +.googletagmanager.com
-      - +.googletagservices.com
+external-controller: :9090
 proxies:
-  - {name: Relay_ |50.66Mb, server: tanz-moble.0098dns01in.work, port: 35067, type: vmess, uuid: bd198085-c950-3e20-b5a3-dec879762ba5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |75.77Mb, server: cmjm.senlinss.link, port: 21121, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}}
-  - {name: "|26.36Mb", server: 13.113.22.120, port: 43993, type: vmess, uuid: cdc7dc87-a395-479e-fdc0-4de148cdbc11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|19.06Mb", server: 146.56.99.245, port: 25135, type: vmess, uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |88.62Mb, server: cmjm.senlinss.link, port: 21117, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}}
-  - {name: Relay_ |112.17Mb, server: tanz-moble.0098dns01in.work, port: 35069, type: vmess, uuid: bd198085-c950-3e20-b5a3-dec879762ba5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |64.98Mb, server: cmjm.senlinss.link, port: 21125, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}}
-  - {name: Relay_ |73.86Mb, server: cmjm.senlinss.link, port: 21112, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}}
-  - {name: 🇺🇸 US_1642, server: 38.114.114.67, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 Relay_🇺🇸 US-🇺🇸US_1807, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sakura/, headers: {Host: v4.xrenblog.com}}}
-  - {name: Relay_ |126.02Mb, server: tanz-moble.0098dns01in.work, port: 35071, type: vmess, uuid: bd198085-c950-3e20-b5a3-dec879762ba5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|185.87Mb", server: 103.172.116.10, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
-  - {name: 🇺🇸 US_1700, server: 38.114.114.67, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: Relay_ |134.34Mb, server: tanz-moble.0098dns01in.work, port: 35011, type: vmess, uuid: bd198085-c950-3e20-b5a3-dec879762ba5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_3332, server: 38.121.43.91, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 US_1237, server: 38.75.136.58, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_3465, server: 140.82.21.142, port: 34762, type: vmess, uuid: b48abbe4-b603-11ec-8a20-560003efb98f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qW4m8CJA/, headers: {Host: 140.82.21.142}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_415 |72.16Mb, server: gtiepl.azzico.website, port: 11567, type: vmess, uuid: c6322489-1b11-318a-ae2a-10dbab1f4c41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_2836, server: 167.88.61.175, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_1052, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 US_3218, server: 38.75.136.102, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 US_1138, server: 38.75.136.117, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_894, server: ppy-moble.0098dns02in.work, port: 26012, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_896, server: ppy-moble.0098dns02in.work, port: 26011, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP_1048, server: 141.164.59.168, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 US_3414, server: 158.247.209.92, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: NONE, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: false}
+  - {name: 🇺🇸 US_578, server: 38.68.134.23, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 US_2190+|11.44Mb, server: 167.88.63.64, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 US_3735, server: 149.28.89.173, port: 24725, type: vmess, uuid: 1203942d-054a-4d63-87a6-3c56ee2e91a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /3gGrItp9/, headers: {Host: 149.28.89.173}}}
+  - {name: 🇺🇸 US_2525, server: 167.88.61.175, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 US_2872, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Relay_+|33.08Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: false}
+  - {name: 🇺🇸 US_2042, server: 38.75.137.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 Relay_🇺🇸US-🇫🇷FR_3749, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 1ae053d9-90a9-4548-a0e3-327f62171331, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}}
+  - {name: 🇺🇸 US_3502, server: 167.88.61.175, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🧭Final
     type: select
@@ -198,81 +29,57 @@ proxy-groups:
     proxies:
       - 🧯Fallback
       - 🕹AutoTest
-      - Relay_ |50.66Mb
-      - Relay_ |75.77Mb
-      - "|26.36Mb"
-      - "|19.06Mb"
-      - Relay_ |88.62Mb
-      - Relay_ |112.17Mb
-      - Relay_ |64.98Mb
-      - Relay_ |73.86Mb
-      - 🇺🇸 US_1642
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_1807
-      - Relay_ |126.02Mb
-      - "|185.87Mb"
-      - 🇺🇸 US_1700
-      - Relay_ |134.34Mb
-      - 🇺🇸 US_3332
-      - 🇺🇸 US_1237
-      - 🇺🇸 US_3465
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_415 |72.16Mb
-      - 🇺🇸 US_2836
-      - 🇺🇸 US_1052
-      - 🇺🇸 US_3218
-      - 🇺🇸 US_1138
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_894
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_896
+      - 🇯🇵 JP_1048
+      - 🇺🇸 US_3414
+      - NONE
+      - 🇺🇸 US_578
+      - 🇺🇸 US_2190+|11.44Mb
+      - 🇺🇸 US_3735
+      - 🇺🇸 US_2525
+      - 🇺🇸 US_2872
+      - Relay_+|33.08Mb
+      - 🇺🇸 US_2042
+      - 🇫🇷 Relay_🇺🇸US-🇫🇷FR_3749
+      - 🇺🇸 US_3502
   - name: 🎞Streaming
     type: select
     proxies:
       - 🌑Proxy
       - 🕹AutoTest
-      - Relay_ |50.66Mb
-      - Relay_ |75.77Mb
-      - "|26.36Mb"
-      - "|19.06Mb"
-      - Relay_ |88.62Mb
-      - Relay_ |112.17Mb
-      - Relay_ |64.98Mb
-      - Relay_ |73.86Mb
-      - 🇺🇸 US_1642
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_1807
-      - Relay_ |126.02Mb
-      - "|185.87Mb"
-      - 🇺🇸 US_1700
-      - Relay_ |134.34Mb
-      - 🇺🇸 US_3332
-      - 🇺🇸 US_1237
-      - 🇺🇸 US_3465
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_415 |72.16Mb
-      - 🇺🇸 US_2836
-      - 🇺🇸 US_1052
-      - 🇺🇸 US_3218
-      - 🇺🇸 US_1138
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_894
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_896
+      - 🇯🇵 JP_1048
+      - 🇺🇸 US_3414
+      - NONE
+      - 🇺🇸 US_578
+      - 🇺🇸 US_2190+|11.44Mb
+      - 🇺🇸 US_3735
+      - 🇺🇸 US_2525
+      - 🇺🇸 US_2872
+      - Relay_+|33.08Mb
+      - 🇺🇸 US_2042
+      - 🇫🇷 Relay_🇺🇸US-🇫🇷FR_3749
+      - 🇺🇸 US_3502
   - name: 🎞StreamingSE
     type: select
     proxies:
       - 🌐Direct
-      - Relay_ |50.66Mb
-      - Relay_ |75.77Mb
-      - "|26.36Mb"
-      - "|19.06Mb"
-      - Relay_ |88.62Mb
-      - Relay_ |112.17Mb
-      - Relay_ |64.98Mb
-      - Relay_ |73.86Mb
-      - 🇺🇸 US_1642
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_1807
-      - Relay_ |126.02Mb
-      - "|185.87Mb"
-      - 🇺🇸 US_1700
-      - Relay_ |134.34Mb
-      - 🇺🇸 US_3332
-      - 🇺🇸 US_1237
-      - 🇺🇸 US_3465
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_415 |72.16Mb
-      - 🇺🇸 US_2836
-      - 🇺🇸 US_1052
-      - 🇺🇸 US_3218
-      - 🇺🇸 US_1138
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_894
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_896
+      - 🇯🇵 JP_1048
+      - 🇺🇸 US_3414
+      - NONE
+      - 🇺🇸 US_578
+      - 🇺🇸 US_2190+|11.44Mb
+      - 🇺🇸 US_3735
+      - 🇺🇸 US_2525
+      - 🇺🇸 US_2872
+      - Relay_+|33.08Mb
+      - 🇺🇸 US_2042
+      - 🇫🇷 Relay_🇺🇸US-🇫🇷FR_3749
+      - 🇺🇸 US_3502
   - name: 🛡Guard
     type: select
     proxies:
@@ -283,55 +90,39 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_ |50.66Mb
-      - Relay_ |75.77Mb
-      - "|26.36Mb"
-      - "|19.06Mb"
-      - Relay_ |88.62Mb
-      - Relay_ |112.17Mb
-      - Relay_ |64.98Mb
-      - Relay_ |73.86Mb
-      - 🇺🇸 US_1642
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_1807
-      - Relay_ |126.02Mb
-      - "|185.87Mb"
-      - 🇺🇸 US_1700
-      - Relay_ |134.34Mb
-      - 🇺🇸 US_3332
-      - 🇺🇸 US_1237
-      - 🇺🇸 US_3465
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_415 |72.16Mb
-      - 🇺🇸 US_2836
-      - 🇺🇸 US_1052
-      - 🇺🇸 US_3218
-      - 🇺🇸 US_1138
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_894
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_896
+      - 🇯🇵 JP_1048
+      - 🇺🇸 US_3414
+      - NONE
+      - 🇺🇸 US_578
+      - 🇺🇸 US_2190+|11.44Mb
+      - 🇺🇸 US_3735
+      - 🇺🇸 US_2525
+      - 🇺🇸 US_2872
+      - Relay_+|33.08Mb
+      - 🇺🇸 US_2042
+      - 🇫🇷 Relay_🇺🇸US-🇫🇷FR_3749
+      - 🇺🇸 US_3502
   - name: 🕹AutoTest
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_ |50.66Mb
-      - Relay_ |75.77Mb
-      - "|26.36Mb"
-      - "|19.06Mb"
-      - Relay_ |88.62Mb
-      - Relay_ |112.17Mb
-      - Relay_ |64.98Mb
-      - Relay_ |73.86Mb
-      - 🇺🇸 US_1642
-      - 🇺🇸 Relay_🇺🇸 US-🇺🇸US_1807
-      - Relay_ |126.02Mb
-      - "|185.87Mb"
-      - 🇺🇸 US_1700
-      - Relay_ |134.34Mb
-      - 🇺🇸 US_3332
-      - 🇺🇸 US_1237
-      - 🇺🇸 US_3465
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_415 |72.16Mb
-      - 🇺🇸 US_2836
-      - 🇺🇸 US_1052
-      - 🇺🇸 US_3218
-      - 🇺🇸 US_1138
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_894
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_896
+      - 🇯🇵 JP_1048
+      - 🇺🇸 US_3414
+      - NONE
+      - 🇺🇸 US_578
+      - 🇺🇸 US_2190+|11.44Mb
+      - 🇺🇸 US_3735
+      - 🇺🇸 US_2525
+      - 🇺🇸 US_2872
+      - Relay_+|33.08Mb
+      - 🇺🇸 US_2042
+      - 🇫🇷 Relay_🇺🇸US-🇫🇷FR_3749
+      - 🇺🇸 US_3502
   - name: ⛔️Reject
     type: select
     proxies:
