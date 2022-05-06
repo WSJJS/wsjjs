@@ -13,7 +13,7 @@ external-controller: 0.0.0.0:9090
 experimental:
   ignore-resolve-fail: true # ignore dns resolve fail, default value is true
 dns:
-  enable: true
+  enable: false
   listen: 0.0.0.0:53
   nameserver:
     - 114.114.114.114 # default value
@@ -29,8 +29,6 @@ proxies:
 
 
 
-
-
 # 代理策略组
 proxy-groups:
   # select 用来允许用户手动选择 代理服务器 或 服务器组
@@ -42,14 +40,11 @@ proxy-groups:
      - fallback-auto
      - load-balance
 
-    
-
   # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
   - name: auto
     type: url-test
     proxies:
 
-    
     url: "http://www.gstatic.com/generate_204"
     interval: 300
 
@@ -57,8 +52,6 @@ proxy-groups:
   - name: fallback-auto
     type: fallback
     proxies:
-
-    
     url: "http://www.gstatic.com/generate_204"
     interval: 300
 
@@ -66,7 +59,6 @@ proxy-groups:
   - name: load-balance
     type: load-balance
     proxies:
-
 
     url: "http://www.gstatic.com/generate_204"
     interval: 300
