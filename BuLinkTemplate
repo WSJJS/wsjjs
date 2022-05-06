@@ -13,7 +13,7 @@ external-controller: 0.0.0.0:9090
 experimental:
   ignore-resolve-fail: true # ignore dns resolve fail, default value is true
 dns:
-  enable: false
+  enable: true
   listen: 0.0.0.0:53
   nameserver:
     - 114.114.114.114 # default value
