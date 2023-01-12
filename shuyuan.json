@@ -1,285 +1,41 @@
 [
   {
-    "bookSourceComment": "",
-    "bookSourceGroup": "",
-    "bookSourceName": "御书网",
+    "bookSourceName": "全职法师 乱/著",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://www.yushubo.net/",
-    "customOrder": -88962917,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": true,
-    "enabledReview": false,
-    "exploreUrl": "",
-    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; U; android 2.3.7; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"}",
-    "lastUpdateTime": 1673536071625,
-    "loginUrl": "",
-    "respondTime": 4769,
-    "ruleBookInfo": {
-      "author": "[property=\"og:novel:author\"]@content",
-      "coverUrl": "[property=\"og:image\"]@content",
-      "init": "",
-      "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
-      "kind": "class.booktitle@p@a@text",
-      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
-      "name": "[property=\"og:novel:book_name\"]@content",
-      "tocUrl": "class.bookbtn-bd@a.1@href",
-      "wordCount": "##字数.([^<]+)<##$1###"
-    },
-    "ruleContent": {
-      "content": "id.BookText@html",
-      "nextContentUrl": "class.articlebtn@a.3@href"
-    },
-    "ruleExplore": {
-      "author": "",
-      "bookList": "",
-      "bookUrl": "",
-      "coverUrl": "",
-      "intro": "",
-      "kind": "",
-      "lastChapter": "",
-      "name": "",
-      "wordCount": ""
-    },
-    "ruleReview": {},
-    "ruleSearch": {
-      "author": "class.col-r@tag.p.1@text",
-      "bookList": "class.search-list@li",
-      "bookUrl": "class.col-l@href",
-      "checkKeyWord": "",
-      "coverUrl": "class.col-l@img@src",
-      "intro": "class.intro@text",
-      "kind": "",
-      "lastChapter": "",
-      "name": "class.col-r@h3@a@text",
-      "wordCount": ""
-    },
-    "ruleToc": {
-      "chapterList": "class.chapter-list@li",
-      "chapterName": "span@a@text",
-      "chapterUrl": "span@a@href",
-      "isVolume": ""
-    },
-    "searchUrl": "https://www.yushugu.net/search.html?ss={{key}}",
-    "variableComment": "",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "",
-    "bookSourceName": "芙蓉中文",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.furongzw.com/",
-    "customOrder": -240765,
-    "enabled": true,
-    "enabledCookieJar": true,
-    "enabledExplore": true,
-    "enabledReview": true,
-    "lastUpdateTime": 1670762349270,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "author": "//meta[@property=\"og:novel:author\"]/@content",
-      "coverUrl": "//meta[@property=\"og:image\"]/@content",
-      "intro": "//meta[@property=\"og:description\"]/@content",
-      "kind": "//meta[@property=\"og:novel:category\"]/@content",
-      "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content&&//meta[@property=\"og:novel:update_time\"]/@content##\\n##•",
-      "name": "//meta[@property=\"og:title\"]/@content"
-    },
-    "ruleContent": {
-      "content": "class.content@html"
-    },
-    "ruleExplore": {},
-    "ruleReview": {},
-    "ruleSearch": {
-      "author": "class.col-md-2 col-sm-4 col-xs-4@text",
-      "bookList": "class.table table-striped table-hover@tr!0",
-      "bookUrl": "class.col-md-2 col-sm-6 col-xs-8@tag.a@href",
-      "checkKeyWord": "",
-      "lastChapter": "class.col-md-6 hidden-sm hidden-xs@text&&class.col-md-2 col-sm-2 hidden-xs@text",
-      "name": "class.col-md-2 col-sm-6 col-xs-8@text"
-    },
-    "ruleToc": {
-      "chapterList": "class.list-group@class.list-group-item col-lg-3 col-md-3 col-sm-4 col-xs-6 book",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href"
-    },
-    "searchUrl": "http://www.furongzw.com/search.php?search={{key}},{\n  \"webView\": true\n}",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "",
-    "bookSourceName": "笔趣阁",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.paaact.org/",
+    "bookSourceUrl": "http://www.quanzhifashi.com/",
     "customOrder": 0,
     "enabled": true,
     "enabledCookieJar": true,
     "enabledExplore": true,
-    "enabledReview": false,
-    "lastUpdateTime": 1673409082194,
+    "enabledReview": true,
+    "lastUpdateTime": 1673538600097,
     "respondTime": 180000,
     "ruleBookInfo": {
-      "author": "class.info@class.small@tag.span.0@text##作者：",
-      "coverUrl": "class.cover@src",
-      "intro": "class.intro@text",
-      "kind": "",
-      "lastChapter": "class.info@class.small@tag.span.3@a@text",
-      "name": "class.info@h1@text",
-      "tocUrl": ""
+      "author": "class.bq@span.1@a@text",
+      "coverUrl": "class.catalog1@class.pic@img@src",
+      "intro": "class.jj@text",
+      "lastChapter": "class.lastchapter@a@text",
+      "name": "class.introduce@h1@text"
     },
     "ruleContent": {
-      "content": "id.chaptercontent@textNodes",
-      "replaceRegex": "##请收藏本站.*.笔趣阁手机版.*.org|『点此报错』|『加入书签』|{{book.durChapterTitle}}|【话说，目前朗读听书最好用的app，，安装最新版。】|精华书阁|为您提供大神{{book.author}}的{{book.name}}最快更新，为了您下次还能查看到本书的最快更新，请务必保存好书签！|\\n.*免费阅读|{{book.durChapterTitle}}(第.*.页).*.继续阅读。|请收藏本站.*.笔趣阁手机版.*.org"
+      "content": "id.articlecontent@html"
     },
     "ruleExplore": {},
     "ruleReview": {},
     "ruleSearch": {
-      "author": "class.author@text",
-      "bookList": "class.bookbox",
-      "bookUrl": "class.bookname@a@href",
-      "coverUrl": "class.bookimg@src",
-      "intro": "class.uptime@text",
-      "name": "class.bookname@a@text"
+      "author": "class.odd.1@a@text",
+      "bookList": "class.grid@tbody@tr!0",
+      "bookUrl": "class.odd.0@a@href",
+      "checkKeyWord": "全职法师",
+      "lastChapter": "class.even.0@a@text",
+      "name": "class.odd.0@a@text"
     },
     "ruleToc": {
-      "chapterList": "class.listmain@dd",
+      "chapterList": "class.ml_list@ul@li",
       "chapterName": "a@text",
-      "chapterUrl": "a@href",
-      "preUpdateJs": ""
+      "chapterUrl": "a@href"
     },
-    "searchUrl": "https://www.paaact.org/s?q={{key}}",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "",
-    "bookSourceGroup": "",
-    "bookSourceName": "快读文学",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.plhydp.com/",
-    "customOrder": 0,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": true,
-    "enabledReview": true,
-    "exploreUrl": "玄幻::/xs/1/{{page}}.html\n武侠::/xs/2/{{page}}.html\n都市::/xs/3/{{page}}.html\n历史::/xs/4/{{page}}.html\n网游::/xs/5/{{page}}.html\n科幻::/xs/6/{{page}}.html\n其他::/xs/7/{{page}}.html",
-    "lastUpdateTime": 1673423928681,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "intro": "[property~=description]@content",
-      "wordCount": ""
-    },
-    "ruleContent": {
-      "content": "{{$.txt}}分页合并>",
-      "imageStyle": "",
-      "nextContentUrl": "@js:\nif(baseUrl.match(/_1\\./)){\nvar num=java.ajax(baseUrl.replace(/u\\./,'m\\.').replace(/\\?.*/,'')).match(/（.*\\/\\s*(\\d+)）/)[1]\nfor(var i=2,txt=[];i-num<=0;i++){\n\ttxt.push(baseUrl.replace(/_\\d+/,'_'+i))\n\t}\n\ttxt.join(\"\\r\\n\")\n}",
-      "replaceRegex": "##\\s*分页合并>\\s*|\\n\\s*。|[^\\n]\\s+\"\\n|<!-\\d+->"
-    },
-    "ruleExplore": {},
-    "ruleReview": {},
-    "ruleSearch": {
-      "author": ".s4@text",
-      "bookList": ".txt-list.0@li!0",
-      "bookUrl": "a.0@href",
-      "kind": ".s1@text##\\[|\\]",
-      "lastChapter": ".s3@text",
-      "name": ".s2@text"
-    },
-    "ruleToc": {
-      "chapterList": "@js:java.getElements(\"ul.-1\").select(\"li a\")",
-      "chapterName": "text",
-      "chapterUrl": "{{baseUrl.match(/(.{10}.*?)\\//)[1].replace(/www/,'u')}}{{@@href##\\.ht##_1\\.ht}}?a=1",
-      "updateTime": ""
-    },
-    "searchUrl": "/search/,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}&Submit=搜索\"\n\t}",
-    "weight": 0
-  },
-  {
-    "bookSourceName": "零点看书",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.soruncg.com/",
-    "customOrder": 0,
-    "enabled": true,
-    "enabledCookieJar": true,
-    "enabledExplore": true,
-    "enabledReview": true,
-    "lastUpdateTime": 1673532689442,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "author": "class.top@class.fix@tag.p.0@text##作者：",
-      "coverUrl": "class.imgbox@img@src",
-      "intro": "class.desc@text",
-      "kind": "class.top@class.fix@tag.p.1@text##类别：",
-      "lastChapter": "class.top@class.fix@tag.p.5@a@text",
-      "name": "class.top@h1@text",
-      "tocUrl": ""
-    },
-    "ruleContent": {
-      "content": "id.content@textNodes",
-      "nextContentUrl": "class.m-bottom-opt@tag.a.2@href",
-      "replaceRegex": ""
-    },
-    "ruleExplore": {},
-    "ruleReview": {},
-    "ruleSearch": {
-      "author": "class.s4@text",
-      "bookList": "class.txt-list@li!0",
-      "bookUrl": "class.s2@a@href",
-      "kind": "class.s1@text##\\[|\\]",
-      "lastChapter": "class.s3@text",
-      "name": "class.s2@a@text"
-    },
-    "ruleToc": {
-      "chapterList": "class.section-box!0@class.section-list@li",
-      "chapterName": "a@text",
-      "chapterUrl": "a@href",
-      "nextTocUrl": "class.right@a@href",
-      "updateTime": "class.top@class.fix@tag.p.4@text##更新："
-    },
-    "searchUrl": "http://www.soruncg.com/ar.php?keyWord={{key}}",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "",
-    "bookSourceGroup": "",
-    "bookSourceName": "147小说网",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.147xs.org",
-    "bookUrlPattern": "",
-    "customOrder": 0,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": true,
-    "enabledReview": false,
-    "exploreUrl": "奇魔玄幻::http://www.147xs.org/sort/1/\n仙侠修真::http://www.147xs.org/sort/2/\n都市现代::http://www.147xs.org/sort/3/\n军史穿越::http://www.147xs.org/sort/4/\n竞技网游::http://www.147xs.org/sort/5/\n恐怖科幻::http://www.147xs.org/sort/6/\n同人次元::http://www.147xs.org/sort/7/\n综合言情::http://www.147xs.org/sort/8/\n浪漫青春::http://www.147xs.org/sort/9/\n现代言情::http://www.147xs.org/sort/10/\n古代言情::http://www.147xs.org/sort/11/\n幻想言情::http://www.147xs.org/sort/12/",
-    "lastUpdateTime": 1673536163625,
-    "loginUrl": "",
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "coverUrl": "id.fmimg@img@src",
-      "intro": "id.intro@textNodes##.*简介：",
-      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
-      "lastChapter": "id.info@tag.p.3@a@text"
-    },
-    "ruleContent": {
-      "content": "id.content@html",
-      "replaceRegex": "##【讲真.*.均可。】|【推荐下.*.试试吧。】|【认识十年.*.com 】|【话说.*.装最新版。】"
-    },
-    "ruleExplore": {},
-    "ruleReview": {},
-    "ruleSearch": {
-      "author": "tag.td.3@text||tag.li@textNodes##.*./",
-      "bookList": "class.grid@tr!0||class.novellist@li",
-      "bookUrl": "a@href",
-      "coverUrl": "a@href##.*/book/(\\d+)/##https://img147xscom.cdn.bcebos.com/img/$1.jpg",
-      "kind": "tag.td.0@text",
-      "lastChapter": "tag.td.2@a@text",
-      "name": "tag.td.1@a@text||a@text##/.*"
-    },
-    "ruleToc": {
-      "chapterList": "id.list@dd@a",
-      "chapterName": "text",
-      "chapterUrl": "href"
-    },
-    "searchUrl": "http://www.147xs.org/search.php?keyword={{key}}",
+    "searchUrl": "http://www.quanzhifashi.com/search.html?searchkey={{key}}",
     "weight": 0
   }
 ]
