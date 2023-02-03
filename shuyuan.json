@@ -1,4 +1,5 @@
-{
+[
+  {
   "bookSourceName": "无畏书库",
   "bookSourceType": 0,
   "bookSourceUrl": "https://www.hnclgk.com/",
@@ -37,3 +38,4 @@
   "searchUrl": "/modules/article/search.php?action={{key}}&searchkey={{key}},{\n  \"charset\": \"GBK\"\n}",
   "weight": 0
 }
+]
